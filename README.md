@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>main.py</title>
-
 <style>
 body {
     margin: 0;
@@ -11,40 +10,22 @@ body {
     color: #d4d4d4;
     font-family: Consolas, monospace;
 }
-
 .top {
     background: #181818;
     padding: 12px 20px;
     color: #cccccc;
     border-bottom: 1px solid #333;
 }
-
 .editor {
     padding: 25px;
     line-height: 1.7;
     font-size: 15px;
 }
-
-.keyword {
-    color: #569cd6;
-}
-
-.function {
-    color: #dcdcaa;
-}
-
-.string {
-    color: #ce9178;
-}
-
-.comment {
-    color: #6a9955;
-}
-
-.line {
-    display: flex;
-}
-
+.keyword { color: #569cd6; }
+.function { color: #dcdcaa; }
+.string { color: #ce9178; }
+.comment { color: #6a9955; }
+.line { display: flex; }
 .number {
     color: #858585;
     width: 35px;
@@ -57,7 +38,7 @@ body {
 
 <body>
 
-<div class="top">●  main.py</div>
+<div class="top">● &nbsp; main.py</div>
 
 <div class="editor">
 
@@ -66,14 +47,12 @@ body {
 <span class="comment"># A little message...</span>
 </div>
 
-<div class="line">
-<span class="number">2</span>
-</div>
+<div class="line"><span class="number">2</span></div>
 
 <div class="line">
 <span class="number">3</span>
-<span class="keyword">def</span>
-&nbsp;<span class="function">message_to_sharanya</span>():
+<span class="keyword">def</span>&nbsp;
+<span class="function">message_to_sharanya</span>():
 </div>
 
 <div class="line">
@@ -101,9 +80,7 @@ body {
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">and there's no pressure to reply.</span>
 </div>
 
-<div class="line">
-<span class="number">9</span>
-</div>
+<div class="line"><span class="number">9</span></div>
 
 <div class="line">
 <span class="number">10</span>
@@ -120,9 +97,7 @@ body {
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">I'm still emotionally attached to them.</span>
 </div>
 
-<div class="line">
-<span class="number">13</span>
-</div>
+<div class="line"><span class="number">13</span></div>
 
 <div class="line">
 <span class="number">14</span>
@@ -144,9 +119,7 @@ body {
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"""</span>
 </div>
 
-<div class="line">
-<span class="number">18</span>
-</div>
+<div class="line"><span class="number">18</span></div>
 
 <div class="line">
 <span class="number">19</span>
@@ -154,6 +127,5 @@ body {
 </div>
 
 </div>
-
 </body>
 </html>
